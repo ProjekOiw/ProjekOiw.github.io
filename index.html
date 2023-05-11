@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json" />
+    <title>On Its Way!</title>
+    <script type="module" src="bundle.js"></script>
+</head>
+
+<body>
+    <div class="container-lg center-text">
+        <div id="m_token"></div>
+        <div id="m_name"></div>
+        <div id="m_contact"></div>
+        <div id="c_token"></div>
+    </div>
+    <form class="row g-3" id="formWhatsapp">
+        <div class="col-auto">
+            <label for="inputWhatsapp" class="visually-hidden">Masukan No WhatsApp</label>
+            <input class="form-control" id="inputWhatsapp" type="text" placeholder="Numbers Only 60123456789"
+                aria-label="inputWhatsapp">
+        </div>
+        <div class="col-auto">
+            <button id="btn-submit" type="submit" class="btn btn-primary mb-3">Request WhatsApp Notification</button>
+        </div>
+    </form>
+    <script></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
